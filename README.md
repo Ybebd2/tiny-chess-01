@@ -8,3 +8,4 @@ local testing. Run `python3 main.py "<FEN>"` for a move, or point
 `MAKEFUN_ENV_URL` at the match environment.
 
 v4: fast legality check, passed pawns, 160k nodes.
+v5: root PVS, staged search, futility pruning, depth 7.
