@@ -6,3 +6,5 @@ node budget, transposition table, MVV-LVA ordering, killer/history heuristics,
 null-move pruning and quiescence search. Beats sunfish's 4 KB engine 2-0 in
 local testing. Run `python3 main.py "<FEN>"` for a move, or point
 `MAKEFUN_ENV_URL` at the match environment.
+
+v4: fast legality check, passed pawns, 160k nodes.
