@@ -9,3 +9,4 @@ local testing. Run `python3 main.py "<FEN>"` for a move, or point
 
 v4: fast legality check, passed pawns, 160k nodes.
 v5: root PVS, staged search, futility pruning, depth 7.
+v6: bishop pair, late-move pruning, per-game node bank, depth 15 endgame.
