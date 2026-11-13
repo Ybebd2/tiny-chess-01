@@ -11,3 +11,4 @@ v4: fast legality check, passed pawns, 160k nodes.
 v5: root PVS, staged search, futility pruning, depth 7.
 v6: bishop pair, late-move pruning, per-game node bank, depth 15 endgame.
 v8: merged PeSTO evaluation, check-aware late-move reduction, killer and history heuristics.
+v10: big-leap — PV-aware and killer-aware LMR, two-tier PVS, check extension at all depths; gauntlet 15.0/16, trial Elo 1,990.
